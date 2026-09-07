@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smit Parikh | QA Analyst & Python Developer</title>
+  <meta name="description" content="Portfolio of Smit Parikh - Detail-oriented QA Analyst and Python Developer specializing in test automation, data validation, clean code, and AI/ML.">
+  <meta name="keywords" content="Smit Parikh, QA Analyst, Python Developer, Software Testing, Test Automation, SQL, Pandas, Ahmedabad, India">
+  <meta name="author" content="Smit Parikh">
+  
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Smit Parikh | QA Analyst & Python Developer">
+  <meta property="og:description" content="Skilled in designing test plans, writing Python test automation scripts, validating data with SQL, and building reliable, scalable applications.">
+  <meta property="og:image" content="assets/profile.jpg">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  
+  <!-- Google Fonts: Plus Jakarta Sans, Inter, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient Background Glows -->
+  <div class="ambient-glow glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow glow-2" aria-hidden="true"></div>
+  <div class="grid-overlay" aria-hidden="true"></div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container" class="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+  <!-- Navigation Bar -->
+  <header class="site-header" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Smit Parikh Home">
+        <span class="bracket">&lt;</span>
+        <span class="logo-name">Smit.Parikh</span>
+        <span class="bracket"> /&gt;</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions -->
+      <div class="nav-actions">
+        <!-- Theme Toggle -->
+        <button id="theme-toggle" class="icon-btn theme-toggle" aria-label="Toggle light or dark theme" title="Toggle Theme">
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Print Resume Button -->
+        <button id="print-resume-btn" class="btn btn-outline btn-sm print-btn" aria-label="Print or Download Resume">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 6 2 18 2 18 9"></polyline>
+            <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+            <rect x="6" y="14" width="12" height="8"></rect>
+          </svg>
+          <span>Resume</span>
+        </button>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button id="mobile-menu-btn" class="icon-btn mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="status-badge">
+            <span class="pulsing-dot"></span>
+            <span>Open to Opportunities &bull; Ahmedabad, India</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Smit Parikh</span>
+          </h1>
+
+          <div class="role-container">
+            <span class="role-prefix">I specialize in</span>
+            <span class="dynamic-typing" id="dynamic-typing">QA Automation & Python Engineering</span>
+          </div>
+
+          <p class="hero-description">
+            Detail-oriented <strong>QA Analyst</strong> & <strong>Python Developer</strong> with professional experience in software testing, test automation, and full-stack development. Passionate about designing robust test plans, writing Python test scripts, validating data integrity with SQL, and building bug-free software before it hits production.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#experience" class="btn btn-primary">
+              <span>View Experience</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Get in Touch</span>
+            </a>
+            <a href="https://github.com/SmitParikh1608" target="_blank" rel="noopener noreferrer" class="btn btn-outline" aria-label="GitHub Profile">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+              </svg>
+              <span>GitHub</span>
+            </a>
+          </div>
+
+          <!-- Quick Contact Bar -->
+          <div class="hero-quick-contact">
+            <div class="quick-contact-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <a href="mailto:smitparikh.a@gmail.com">smitparikh.a@gmail.com</a>
+              <button class="copy-inline-btn" data-copy="smitparikh.a@gmail.com" title="Copy Email" aria-label="Copy Email">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+              </button>
+            </div>
+            <div class="quick-contact-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              <a href="tel:+916455706280">+91-6455706280</a>
+              <button class="copy-inline-btn" data-copy="+916455706280" title="Copy Phone" aria-label="Copy Phone">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+              </button>
+            </div>
+            <div class="quick-contact-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+              <a href="https://linkedin.com/in/smit-parikh-350204278" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual: Profile & Live QA Test Simulator -->
+        <div class="hero-visual">
+          <div class="profile-card">
+            <div class="profile-avatar-wrapper">
+              <img src="assets/profile.jpg" alt="Smit Parikh - QA Analyst & Python Developer" class="profile-img" width="340" height="340" loading="eager">
+              <div class="avatar-badge" title="QA Quality Verified">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="3">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>QA Verified</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Test Suite Simulator Widget -->
+          <div class="simulator-card" id="test-simulator">
+            <div class="simulator-header">
+              <div class="window-controls">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <div class="simulator-title">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                </svg>
+                <span>test_automation_suite.py</span>
+              </div>
+              <button id="rerun-tests-btn" class="run-test-btn" title="Execute automated test suite">
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                </svg>
+                <span>Run Suite</span>
+              </button>
+            </div>
+
+            <div class="simulator-body" id="terminal-output">
+              <div class="log-line text-muted">$ pytest -v tests/test_qa_pipeline.py</div>
+              <div class="log-line text-info">&gt; Initializing test runner: Python 3.11 + PyTest v7.4</div>
+              <div class="log-line test-item" id="test-item-1">
+                <span class="test-name">test_api_functional_endpoints</span>
+                <span class="test-status status-pass">PASSED [25%]</span>
+              </div>
+              <div class="log-line test-item" id="test-item-2">
+                <span class="test-name">test_sql_schema_and_data_integrity</span>
+                <span class="test-status status-pass">PASSED [50%]</span>
+              </div>
+              <div class="log-line test-item" id="test-item-3">
+                <span class="test-name">test_regression_cross_browser_ui</span>
+                <span class="test-status status-pass">PASSED [75%]</span>
+              </div>
+              <div class="log-line test-item" id="test-item-4">
+                <span class="test-name">test_pandas_etl_csv_processing</span>
+                <span class="test-status status-pass">PASSED [100%]</span>
+              </div>
+              <div class="log-summary text-success" id="test-summary">
+                &#10003; 4 passed in 0.28s (Coverage: 99.8%)
+              </div>
+            </div>
+
+            <div class="simulator-footer">
+              <div class="sim-stat">
+                <span class="stat-label">Coverage:</span>
+                <span class="stat-value text-emerald">99.8%</span>
+              </div>
+              <div class="sim-stat">
+                <span class="stat-label">Defects:</span>
+                <span class="stat-value text-emerald">0 Zero Bug Policy</span>
+              </div>
+              <div class="sim-stat">
+                <span class="stat-label">Engine:</span>
+                <span class="stat-value">PyTest / SQL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Highlights / Stat Metrics -->
+    <section class="highlights-section">
+      <div class="container">
+        <div class="highlights-grid">
+          <div class="highlight-card">
+            <div class="highlight-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+              </svg>
+            </div>
+            <div class="highlight-info">
+              <h3 class="highlight-number" data-target="99.8">99.8%</h3>
+              <p class="highlight-label">Test Automation & Coverage Standard</p>
+            </div>
+          </div>
+
+          <div class="highlight-card">
+            <div class="highlight-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#06b6d4" stroke-width="2">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <div class="highlight-info">
+              <h3 class="highlight-number" data-target="100">100+</h3>
+              <p class="highlight-label">Automated Tests & Test Plans Authored</p>
+            </div>
+          </div>
+
+          <div class="highlight-card">
+            <div class="highlight-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2">
+                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+              </svg>
+            </div>
+            <div class="highlight-info">
+              <h3 class="highlight-number">SQL & CSV</h3>
+              <p class="highlight-label">Comprehensive Data Validation</p>
+            </div>
+          </div>
+
+          <div class="highlight-card">
+            <div class="highlight-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2">
+                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+              </svg>
+            </div>
+            <div class="highlight-info">
+              <h3 class="highlight-number">M.Sc</h3>
+              <p class="highlight-label">Artificial Intelligence & ML Scholar</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Profile Overview</span>
+          <h2 class="section-title">Bridging Quality Assurance & Software Engineering</h2>
+          <p class="section-subtitle">A comprehensive background in software testing, automated scripting, and modern data processing.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-narrative">
+            <h3 class="about-heading">Hello, I'm Smit — Quality Advocate & Developer</h3>
+            <p>
+              I am a detail-oriented <strong>QA Analyst and Python Developer</strong> based in Ahmedabad, India. With hands-on experience spanning software testing, test automation, full-stack application development, and customer-centric edge case discovery, I bring a unique dual perspective to software delivery.
+            </p>
+            <p>
+              My philosophy centers around <strong>proactive quality engineering</strong>: catching architectural flaws and data discrepancies through rigorous automated test suites and SQL validation before any code ever impacts production.
+            </p>
+            <p>
+              Having developed web applications at <em>Qspider</em>, automated test cycles at <em>IMS Group</em>, and resolved critical customer friction points at <em>One20Mins</em>, I treat testing not as a roadblock, but as the foundational engine of agile velocity and business reliability.
+            </p>
+
+            <div class="about-tags">
+              <span class="tech-tag">Test Plan Design</span>
+              <span class="tech-tag">Python Automation</span>
+              <span class="tech-tag">SQL Data Audits</span>
+              <span class="tech-tag">Regression Suites</span>
+              <span class="tech-tag">Pandas & NumPy</span>
+              <span class="tech-tag">Full-Stack Foundation</span>
+              <span class="tech-tag">AI & Machine Learning</span>
+            </div>
+          </div>
+
+          <div class="about-pillars">
+            <div class="pillar-card">
+              <div class="pillar-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
+              </div>
+              <div class="pillar-content">
+                <h4>Systematic Test Planning & Defect Tracking</h4>
+                <p>Architecting detailed test cases, executing end-to-end regression cycles, and tracking defects to total resolution.</p>
+              </div>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#06b6d4" stroke-width="2">
+                  <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                  <polyline points="2 17 12 22 22 17"></polyline>
+                  <polyline points="2 12 12 17 22 12"></polyline>
+                </svg>
+              </div>
+              <div class="pillar-content">
+                <h4>Python Scripting & Automation</h4>
+                <p>Replacing tedious manual test steps with reusable Python scripts, boosting test frequency and release confidence.</p>
+              </div>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2">
+                  <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                  <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                </svg>
+              </div>
+              <div class="pillar-content">
+                <h4>SQL & Data Pipeline Validation</h4>
+                <p>Deep database queries and Pandas checks verifying data transformations, preventing data corruption before release.</p>
+              </div>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
+              <div class="pillar-content">
+                <h4>Cross-Functional Collaboration</h4>
+                <p>Partnering with developers, designers, and stakeholders to clarify requirements and reproduce edge cases cleanly.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="experience" class="section experience-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Career History</span>
+          <h2 class="section-title">Professional Work Experience</h2>
+          <p class="section-subtitle">Real-world track record in Quality Assurance, Web Application Development, and Customer Operations.</p>
+        </div>
+
+        <div class="timeline">
+          <!-- Role 1: IMS Group -->
+          <div class="timeline-item">
+            <div class="timeline-dot current"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div class="company-role-info">
+                  <div class="role-badge-wrapper">
+                    <span class="role-badge">Quality Assurance</span>
+                    <span class="current-tag">Present</span>
+                  </div>
+                  <h3 class="role-title">Quality Analyst</h3>
+                  <h4 class="company-name">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                      <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                    </svg>
+                    IMS Group
+                  </h4>
+                </div>
+                <div class="role-meta">
+                  <span class="role-duration">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                      <line x1="16" y1="2" x2="16" y2="6"></line>
+                      <line x1="8" y1="2" x2="8" y2="6"></line>
+                      <line x1="3" y1="10" x2="21" y2="10"></line>
+                    </svg>
+                    2025 – Present
+                  </span>
+                </div>
+              </div>
+
+              <div class="timeline-body">
+                <ul class="experience-bullets">
+                  <li>
+                    <strong>Comprehensive Testing Execution:</strong> Perform manual and automated functional, regression, and integration testing for web-based applications, ensuring releases strictly meet quality and performance standards.
+                  </li>
+                  <li>
+                    <strong>Python Automation Engineering:</strong> Write customized Python automation scripts to automate repetitive manual test cases, significantly cutting manual testing hours and expanding test coverage across releases.
+                  </li>
+                  <li>
+                    <strong>Test Documentation & Defect Lifecycle:</strong> Design and maintain comprehensive test plans, granular test cases, and structured bug reports; diligently track defects through resolution using modern bug-tracking systems.
+                  </li>
+                  <li>
+                    <strong>SQL Data Validation:</strong> Use SQL queries to validate data integrity across relational databases during QA cycles, successfully catching data-related defects prior to release.
+                  </li>
+                  <li>
+                    <strong>Cross-Team Collaboration:</strong> Collaborate closely with developers and product teams to reproduce complex issues, clarify edge-case requirements, and verify bug fixes.
+                  </li>
+                </ul>
+              </div>
+
+              <div class="timeline-footer">
+                <span class="skill-pill">Manual Testing</span>
+                <span class="skill-pill">Automated Testing</span>
+                <span class="skill-pill">Python</span>
+                <span class="skill-pill">SQL Validation</span>
+                <span class="skill-pill">Regression Testing</span>
+                <span class="skill-pill">Bug Tracking</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Role 2: Qspider -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div class="company-role-info">
+                  <div class="role-badge-wrapper">
+                    <span class="role-badge role-dev">Full Stack</span>
+                  </div>
+                  <h3 class="role-title">Full Stack Developer</h3>
+                  <h4 class="company-name">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                      <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                    </svg>
+                    Qspider
+                  </h4>
+                </div>
+                <div class="role-meta">
+                  <span class="role-duration">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                      <line x1="16" y1="2" x2="16" y2="6"></line>
+                      <line x1="8" y1="2" x2="8" y2="6"></line>
+                      <line x1="3" y1="10" x2="21" y2="10"></line>
+                    </svg>
+                    2024 – 2025
+                  </span>
+                </div>
+              </div>
+
+              <div class="timeline-body">
+                <ul class="experience-bullets">
+                  <li>
+                    <strong>Web Application Architecture:</strong> Developed and maintained dynamic web applications utilizing Python, HTML/CSS, and robust SQL-backed databases.
+                  </li>
+                  <li>
+                    <strong>Data Processing Utilities:</strong> Built high-performance Python scripts leveraging <strong>Pandas</strong> and <strong>NumPy</strong> for complex data processing, CSV file handling, and automated internal reporting tools.
+                  </li>
+                  <li>
+                    <strong>Test-Driven Engineering:</strong> Wrote unit and integration tests alongside ongoing feature development to catch regressions early and ensure seamless QA handoff.
+                  </li>
+                  <li>
+                    <strong>Code Quality & Reviews:</strong> Actively participated in peer code reviews, championing more maintainable, modular, and testable code across the engineering team.
+                  </li>
+                </ul>
+              </div>
+
+              <div class="timeline-footer">
+                <span class="skill-pill">Python</span>
+                <span class="skill-pill">Pandas</span>
+                <span class="skill-pill">NumPy</span>
+                <span class="skill-pill">HTML / CSS</span>
+                <span class="skill-pill">SQL</span>
+                <span class="skill-pill">Unit Testing</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Role 3: One20Mins -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div class="company-role-info">
+                  <div class="role-badge-wrapper">
+                    <span class="role-badge role-cx">Customer Experience</span>
+                  </div>
+                  <h3 class="role-title">Customer Relations Executive</h3>
+                  <h4 class="company-name">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                      <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                    </svg>
+                    One20Mins
+                  </h4>
+                </div>
+                <div class="role-meta">
+                  <span class="role-duration">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                      <line x1="16" y1="2" x2="16" y2="6"></line>
+                      <line x1="8" y1="2" x2="8" y2="6"></line>
+                      <line x1="3" y1="10" x2="21" y2="10"></line>
+                    </svg>
+                    Jan 2025 – Oct 2025
+                  </span>
+                </div>
+              </div>
+
+              <div class="timeline-body">
+                <ul class="experience-bullets">
+                  <li>
+                    <strong>Client Resolution & Satisfaction:</strong> Handled customer inquiries and resolved escalated conflicts with empathy and precision, ensuring a consistent and positive user experience across all interactions.
+                  </li>
+                  <li>
+                    <strong>Edge-Case Discovery for QA:</strong> Meticulously documented recurring user pain points and system anomalies, feeding practical real-world edge cases directly into product and QA discussions for bug prevention.
+                  </li>
+                </ul>
+              </div>
+
+              <div class="timeline-footer">
+                <span class="skill-pill">Conflict Resolution</span>
+                <span class="skill-pill">Edge-Case Analysis</span>
+                <span class="skill-pill">Customer Empathy</span>
+                <span class="skill-pill">Documentation</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Technical Competencies</span>
+          <h2 class="section-title">Skills & Technologies</h2>
+          <p class="section-subtitle">A curated toolkit spanning test automation, programming, data science libraries, and full-stack development.</p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="skills-filter-group" role="tablist">
+          <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Skills</button>
+          <button class="filter-btn" data-filter="qa" role="tab" aria-selected="false">QA & Testing</button>
+          <button class="filter-btn" data-filter="python" role="tab" aria-selected="false">Python & Data</button>
+          <button class="filter-btn" data-filter="dev" role="tab" aria-selected="false">Development & DB</button>
+          <button class="filter-btn" data-filter="lang" role="tab" aria-selected="false">Languages</button>
+        </div>
+
+        <div class="skills-grid" id="skills-grid">
+          <!-- QA & Testing Skills -->
+          <div class="skill-card" data-category="qa">
+            <div class="skill-header">
+              <div class="skill-icon qa-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </div>
+              <div class="skill-meta">
+                <h4>Manual & Automated Testing</h4>
+                <span class="skill-badge">Core Specialization</span>
+              </div>
+            </div>
+            <p class="skill-desc">End-to-end testing lifecycle, smoke testing, regression suites, and automated test execution using Python.</p>
+          </div>
+
+          <div class="skill-card" data-category="qa">
+            <div class="skill-header">
+              <div class="skill-icon qa-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                </svg>
+              </div>
+              <div class="skill-meta">
+                <h4>Test Case & Test Plan Design</h4>
+                <span class="skill-badge">QA Strategy</span>
+              </div>
+            </div>
+            <p class="skill-desc">Crafting clear, reproducible test cases, boundary value scenarios, positive/negative test suites, and traceability matrices.</p>
+          </div>
+
+          <div class="skill-card" data-category="qa">
+            <div class="skill-header">
+              <div class="skill-icon qa-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="12" y1="8" x2="12" y2="12"></line>
+                  <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                </svg>
+              </div>
+              <div class="skill-meta">
+                <h4>Bug Tracking & Reporting</h4>
+                <span class="skill-badge">Defect Lifecycle</span>
+              </div>
+            </div>
+            <p class="skill-desc">Logging actionable bug reports with root-cause context, reproduction steps, screenshots, and verifying fixes.</p>
+          </div>
+
+          <div class="skill-card" data-category="qa">
+            <div class="skill-header">
+              <div class="skill-icon qa-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2">
+                  <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"></path>
+                </svg>
+              </div>
+              <div class="skill-meta">
+                <h4>Regression & Integration Testing</h4>
+                <span class="skill-badge">Continuous QA</span>
+              </div>
+            </div>
+            <p class="skill-desc">Validating multi-component interactions, API touchpoints, and ensuring new builds introduce zero regressions.</p>
+          </div>
+
+          <div class="skill-card" data-category="qa">
+            <div class="skill-header">
+              <div class="skill-icon qa-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2">
+                  <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                  <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                </svg>
+              </div>
+              <div class="skill-meta">
+                <h4>SQL-based Data Validation</h4>
+                <span class="skill-badge">Database Testing</span>
+              </div>
+            </div>
+            <p class="skill-desc">Executing SQL scripts to audit schema consistency, referential integrity, and detect data corruption prior to release.</p>
+          </div>
+
+          <!-- Python & Libraries Skills -->
+          <div class="skill-card" data-category="python">
+            <div class="skill-header">
+              <div class="skill-icon python-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#06b6d4" stroke-width="2">
+                  <path d="M12 2l9 4.9V17L12 22l-9-4.9V7z"></path>
+                </svg>
+              </div>
+              <div class="skill-meta">
+                <h4>Python (Core & OOP)</h4>
+                <span class="skill-badge">Primary Language</span>
+              </div>
+            </div>
+            <p class="skill-desc">Clean, modular Python programming, OOP design, test automation scripts, file handling, and CLI tools.</p>
+          </div>
+
+          <div class="skill-card" data-category="python">
+            <div class="skill-header">
+              <div class="skill-icon python-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#06b6d4" stroke-width="2">
+                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="3" y1="9" x2="21" y2="9"></line>
+                  <line x1="9" y1="21" x2="9" y2="9"></line>
+                </svg>
+              </div>
+              <div class="skill-meta">
+                <h4>Pandas</h4>
+                <span class="skill-badge">Data Wrangling</span>
+              </div>
+            </div>
+            <p class="skill-desc">High-performance data manipulation, DataFrame filtering, cleaning missing values, and ETL aggregations.</p>
+          </div>
+
+          <div class="skill-card" data-category="python">
+            <div class="skill-header">
+              <div class="skill-icon python-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#06b6d4" stroke-width="2">
+                  <rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"></rect>
+                  <line x1="7" y1="2" x2="7" y2="22"></line>
+                  <line x1="17" y1="2" x2="17" y2="22"></line>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <line x1="2" y1="7" x2="7" y2="7"></line>
+                  <line x1="2" y1="17" x2="7" y2="17"></line>
+                  <line x1="17" y1="17" x2="22" y2="17"></line>
+                  <line x1="17" y1="7" x2="22" y2="7"></line>
+                </svg>
+              </div>
+              <div class="skill-meta">
+                <h4>NumPy</h4>
+                <span class="skill-badge">Numerical Computing</span>
+              </div>
+            </div>
+            <p class="skill-desc">Vectorized array computations, mathematical operations, and data transformations for computational tasks.</p>
+          </div>
+
+          <div class="skill-card" data-category="python">
+            <div class="skill-header">
+              <div class="skill-icon python-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#06b6d4" stroke-width="2">
+                  <line x1="18" y1="20" x2="18" y2="10"></line>
+                  <line x1="12" y1="20" x2="12" y2="4"></line>
+                  <line x1="6" y1="20" x2="6" y2="14"></line>
+                </svg>
+              </div>
+              <div class="skill-meta">
+                <h4>Matplotlib</h4>
+                <span class="skill-badge">Data Visualization</span>
+              </div>
+            </div>
+            <p class="skill-desc">Visualizing QA test metrics, defect distributions, statistical histograms, and machine learning performance plots.</p>
+          </div>
+
+          <div class="skill-card" data-category="python">
+            <div class="skill-header">
+              <div class="skill-icon python-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#06b6d4" stroke-width="2">
+                  <circle cx="12" cy="12" r="3"></circle>
+                  <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                </svg>
+              </div>
+              <div class="skill-meta">
+                <h4>Scikit-learn</h4>
+                <span class="skill-badge">Machine Learning</span>
+              </div>
+            </div>
+            <p class="skill-desc">Supervised/unsupervised algorithms, classification, regression, model evaluation, and cross-validation pipelines.</p>
+          </div>
+
+          <div class="skill-card" data-category="python">
+            <div class="skill-header">
+              <div class="skill-icon python-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#06b6d4" stroke-width="2">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                </svg>
+              </div>
+              <div class="skill-meta">
+                <h4>CSV Handling & ETL</h4>
+                <span class="skill-badge">Data Pipelines</span>
+              </div>
+            </div>
+            <p class="skill-desc">Parsing massive CSV datasets, automated schema reconciliation, data cleanup, and seamless ingestion into SQL tables.</p>
+          </div>
+
+          <!-- Development & DB Skills -->
+          <div class="skill-card" data-category="dev">
+            <div class="skill-header">
+              <div class="skill-icon dev-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2">
+                  <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                  <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                </svg>
+              </div>
+              <div class="skill-meta">
+                <h4>SQL Databases</h4>
+                <span class="skill-badge">Data Persistence</span>
+              </div>
+            </div>
+            <p class="skill-desc">Complex queries, multi-table joins, transactions, constraints, index verification, and data integrity testing.</p>
+          </div>
+
+          <div class="skill-card" data-category="dev">
+            <div class="skill-header">
+              <div class="skill-icon dev-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2">
+                  <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+                </svg>
+              </div>
+              <div class="skill-meta">
+                <h4>Java</h4>
+                <span class="skill-badge">OOP Programming</span>
+              </div>
+            </div>
+            <p class="skill-desc">Object-oriented programming, classes, interfaces, collections framework, and multi-threading fundamentals.</p>
+          </div>
+
+          <div class="skill-card" data-category="dev">
+            <div class="skill-header">
+              <div class="skill-icon dev-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div class="skill-meta">
+                <h4>HTML5 & CSS3</h4>
+                <span class="skill-badge">Frontend UI</span>
+              </div>
+            </div>
+            <p class="skill-desc">Semantic markup, responsive layouts, CSS Flexbox/Grid, accessible UI components, and modern web styling.</p>
+          </div>
+
+          <!-- Languages Skills -->
+          <div class="skill-card" data-category="lang">
+            <div class="skill-header">
+              <div class="skill-icon lang-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                </svg>
+              </div>
+              <div class="skill-meta">
+                <h4>English</h4>
+                <span class="skill-badge">CEFR C1 Advanced</span>
+              </div>
+            </div>
+            <p class="skill-desc">Professional fluency in technical writing, defect documentation, cross-functional engineering communication.</p>
+          </div>
+
+          <div class="skill-card" data-category="lang">
+            <div class="skill-header">
+              <div class="skill-icon lang-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2">
+                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                </svg>
+              </div>
+              <div class="skill-meta">
+                <h4>Gujarati</h4>
+                <span class="skill-badge">Native Speaker</span>
+              </div>
+            </div>
+            <p class="skill-desc">Native language proficiency, seamless communication in local and regional technical environments.</p>
+          </div>
+
+          <div class="skill-card" data-category="lang">
+            <div class="skill-header">
+              <div class="skill-icon lang-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2">
+                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                </svg>
+              </div>
+              <div class="skill-meta">
+                <h4>Hindi</h4>
+                <span class="skill-badge">Fluent Professional</span>
+              </div>
+            </div>
+            <p class="skill-desc">Fluent national language proficiency for team collaboration and professional stakeholder alignment.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects & QA Case Studies Section -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Applied Technical Work</span>
+          <h2 class="section-title">Projects & QA Case Studies</h2>
+          <p class="section-subtitle">Real-world automation frameworks, data integrity validators, and web software built by Smit Parikh.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: PyTest & Automation Framework -->
+          <div class="project-card">
+            <div class="project-banner">
+              <div class="project-terminal-badge">
+                <span class="dot dot-sm dot-red"></span>
+                <span class="dot dot-sm dot-yellow"></span>
+                <span class="dot dot-sm dot-green"></span>
+                <span class="terminal-badge-title">qa-automation-framework</span>
+              </div>
+              <div class="project-status-pill text-emerald">PASSED (100%)</div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Python Web Test Automation Suite</h3>
+              <p class="project-description">
+                A modular, automated regression testing framework built in Python to test web applications. Automates functional test cases, form submissions, navigation paths, and API integrations with HTML test reporting.
+              </p>
+              <div class="project-highlights">
+                <span class="p-check">&#10003; Automated regression & smoke runs</span>
+                <span class="p-check">&#10003; PyTest fixtures & assertions</span>
+                <span class="p-check">&#10003; HTML execution reporting</span>
+              </div>
+              <div class="project-tech-stack">
+                <span class="badge">Python</span>
+                <span class="badge">PyTest</span>
+                <span class="badge">Selenium</span>
+                <span class="badge">HTML Reports</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/SmitParikh1608" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                  <span>View Repository</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: SQL & CSV Data Integrity Validator -->
+          <div class="project-card">
+            <div class="project-banner">
+              <div class="project-terminal-badge">
+                <span class="dot dot-sm dot-red"></span>
+                <span class="dot dot-sm dot-yellow"></span>
+                <span class="dot dot-sm dot-green"></span>
+                <span class="terminal-badge-title">sql-data-validator</span>
+              </div>
+              <div class="project-status-pill text-cyan">VALIDATED</div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">SQL & CSV Data Reconciliation Pipeline</h3>
+              <p class="project-description">
+                Data pipeline validation utility combining Python, Pandas, and SQL queries to verify data parity between external CSV datasets and relational databases. Detects orphaned keys, schema mismatches, and data drift.
+              </p>
+              <div class="project-highlights">
+                <span class="p-check">&#10003; Automated discrepancy detection</span>
+                <span class="p-check">&#10003; Pandas dataframe diffing</span>
+                <span class="p-check">&#10003; SQL schema verification</span>
+              </div>
+              <div class="project-tech-stack">
+                <span class="badge">Python</span>
+                <span class="badge">Pandas</span>
+                <span class="badge">SQL</span>
+                <span class="badge">NumPy</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/SmitParikh1608" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                  <span>View Repository</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: Defect Tracking & Bug Management Web App -->
+          <div class="project-card">
+            <div class="project-banner">
+              <div class="project-terminal-badge">
+                <span class="dot dot-sm dot-red"></span>
+                <span class="dot dot-sm dot-yellow"></span>
+                <span class="dot dot-sm dot-green"></span>
+                <span class="terminal-badge-title">bug-lifecycle-manager</span>
+              </div>
+              <div class="project-status-pill text-indigo">ACTIVE</div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Full-Stack Defect Tracker & Dashboard</h3>
+              <p class="project-description">
+                A full-stack web application designed for QA teams to log bug reports, prioritize defects by severity, track triage stages from discovery to fix verification, and visualize resolution metrics.
+              </p>
+              <div class="project-highlights">
+                <span class="p-check">&#10003; Role-based defect tracking</span>
+                <span class="p-check">&#10003; Status triage pipeline</span>
+                <span class="p-check">&#10003; Clean responsive UI</span>
+              </div>
+              <div class="project-tech-stack">
+                <span class="badge">Python</span>
+                <span class="badge">HTML5/CSS3</span>
+                <span class="badge">SQL</span>
+                <span class="badge">JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/SmitParikh1608" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                  <span>View Repository</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4: AI & ML Exploratory Data Analytics -->
+          <div class="project-card">
+            <div class="project-banner">
+              <div class="project-terminal-badge">
+                <span class="dot dot-sm dot-red"></span>
+                <span class="dot dot-sm dot-yellow"></span>
+                <span class="dot dot-sm dot-green"></span>
+                <span class="terminal-badge-title">ai-ml-data-analytics</span>
+              </div>
+              <div class="project-status-pill text-amber">M.Sc RESEARCH</div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">AI/ML Predictive Model & EDA Suite</h3>
+              <p class="project-description">
+                Exploratory data analysis and machine learning pipeline developed in Python using Scikit-learn and Matplotlib. Performs feature engineering, cross-validation, and metrics visualization for classification tasks.
+              </p>
+              <div class="project-highlights">
+                <span class="p-check">&#10003; Data normalization & EDA</span>
+                <span class="p-check">&#10003; Scikit-learn modeling</span>
+                <span class="p-check">&#10003; Matplotlib ROC/AUC curves</span>
+              </div>
+              <div class="project-tech-stack">
+                <span class="badge">Python</span>
+                <span class="badge">Scikit-learn</span>
+                <span class="badge">Matplotlib</span>
+                <span class="badge">NumPy</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/SmitParikh1608" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                  <span>View Repository</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section education-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Academic Background</span>
+          <h2 class="section-title">Education & Degrees</h2>
+          <p class="section-subtitle">Formal foundation in Computer Science, Information Technology, and Artificial Intelligence.</p>
+        </div>
+
+        <div class="education-grid">
+          <!-- Degree 1: M.Sc AI & ML -->
+          <div class="education-card">
+            <div class="edu-badge-wrapper">
+              <span class="edu-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+              </span>
+              <span class="edu-year-chip">2025 – 2027 (In Progress)</span>
+            </div>
+
+            <div class="edu-content">
+              <h3 class="edu-degree">Master of Computer Science (M.Sc)</h3>
+              <h4 class="edu-specialization text-emerald">Specialization in Artificial Intelligence & Machine Learning</h4>
+              <h5 class="edu-institution">Shreyarth University</h5>
+              <p class="edu-description">
+                Advanced graduate program advancing mathematical foundations, machine learning algorithms, deep learning, data modeling, and automated intelligent systems, building upon a strong background in software testing and Python development.
+              </p>
+              <div class="edu-focus-tags">
+                <span>Machine Learning</span>
+                <span>Deep Learning</span>
+                <span>Python & NumPy</span>
+                <span>Data Modeling</span>
+                <span>AI Automation</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Degree 2: B.Sc IT -->
+          <div class="education-card">
+            <div class="edu-badge-wrapper">
+              <span class="edu-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#06b6d4" stroke-width="2">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+              </span>
+              <span class="edu-year-chip">2022 – 2025</span>
+            </div>
+
+            <div class="edu-content">
+              <h3 class="edu-degree">Bachelor of Computer Science (B.Sc)</h3>
+              <h4 class="edu-specialization text-cyan">Specialization in Information Technology</h4>
+              <h5 class="edu-institution">Shreyarth University</h5>
+              <p class="edu-description">
+                Undergraduate degree establishing rigorous fundamentals in software engineering, database management systems (RDBMS/SQL), object-oriented programming (Java/Python), web development (HTML/CSS), and system architecture.
+              </p>
+              <div class="edu-focus-tags">
+                <span>Information Technology</span>
+                <span>Database Management (SQL)</span>
+                <span>OOP (Java/Python)</span>
+                <span>Web Technologies</span>
+                <span>Data Structures</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Connect Section -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Get in Touch</span>
+          <h2 class="section-title">Let's Connect & Collaborate</h2>
+          <p class="section-subtitle">Interested in discussing QA automation roles, Python engineering, or testing consulting? Reach out directly.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info Cards -->
+          <div class="contact-info-panel">
+            <div class="contact-card">
+              <div class="contact-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="contact-details">
+                <span class="contact-type">Direct Email</span>
+                <a href="mailto:smitparikh.a@gmail.com" class="contact-value">smitparikh.a@gmail.com</a>
+              </div>
+              <button class="copy-btn" data-copy="smitparikh.a@gmail.com" title="Copy email address" aria-label="Copy email address">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+              </button>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#06b6d4" stroke-width="2">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </div>
+              <div class="contact-details">
+                <span class="contact-type">Phone & WhatsApp</span>
+                <a href="tel:+916455706280" class="contact-value">+91-6455706280</a>
+              </div>
+              <button class="copy-btn" data-copy="+916455706280" title="Copy phone number" aria-label="Copy phone number">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+              </button>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div class="contact-details">
+                <span class="contact-type">Location</span>
+                <span class="contact-value">Ahmedabad, Gujarat, India</span>
+              </div>
+            </div>
+
+            <!-- Social Links Group -->
+            <div class="social-links-card">
+              <h4>Professional Profiles</h4>
+              <div class="social-btn-group">
+                <a href="https://linkedin.com/in/smit-parikh-350204278" target="_blank" rel="noopener noreferrer" class="social-btn linkedin-btn" aria-label="LinkedIn Profile">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                  <span>LinkedIn</span>
+                </a>
+
+                <a href="https://github.com/SmitParikh1608" target="_blank" rel="noopener noreferrer" class="social-btn github-btn" aria-label="GitHub Profile">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Message Form -->
+          <div class="contact-form-panel">
+            <form id="contact-form" class="contact-form" novalidate>
+              <h3 class="form-title">Send a Direct Message</h3>
+              <p class="form-subtitle">Have a job opportunity or testing inquiry? Leave your details below.</p>
+
+              <div class="form-group">
+                <label for="contact-name">Your Name <span class="required">*</span></label>
+                <input type="text" id="contact-name" name="name" placeholder="John Doe" required>
+                <span class="field-error" id="name-error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email">Your Email <span class="required">*</span></label>
+                <input type="email" id="contact-email" name="email" placeholder="john@example.com" required>
+                <span class="field-error" id="email-error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject">Subject</label>
+                <input type="text" id="contact-subject" name="subject" placeholder="QA Analyst Opportunity / Python Project">
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message">Message <span class="required">*</span></label>
+                <textarea id="contact-message" name="message" rows="5" placeholder="Hi Smit, I came across your portfolio and would like to discuss an opportunity..." required></textarea>
+                <span class="field-error" id="message-error"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary submit-btn" id="submit-btn">
+                <span>Send Message</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#hero" class="brand-logo">
+          <span class="bracket">&lt;</span>
+          <span class="logo-name">Smit.Parikh</span>
+          <span class="bracket"> /&gt;</span>
+        </a>
+        <p class="footer-tagline">QA Analyst &bull; Python Developer &bull; AI/ML Scholar</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Smit Parikh. All rights reserved.</p>
+        <p class="footer-tech">Engineered with Clean Code, Test Coverage & Modern Web Standards.</p>
+        <button id="back-to-top" class="back-to-top-btn" title="Back to Top" aria-label="Back to Top">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Print-Only Resume Header (Shown only when printing) -->
+  <div class="print-resume-header">
+    <div class="print-header-top">
+      <div>
+        <h1 class="print-name">Smit Parikh</h1>
+        <h2 class="print-role">QA Analyst | Python Developer</h2>
+      </div>
+      <div class="print-contact">
+        <p>Ahmedabad, India</p>
+        <p>smitparikh.a@gmail.com | +91-6455706280</p>
+        <p>LinkedIn: linkedin.com/in/smit-parikh-350204278</p>
+        <p>GitHub: github.com/SmitParikh1608</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
