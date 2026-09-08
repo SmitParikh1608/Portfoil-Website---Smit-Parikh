@@ -1,0 +1,13 @@
+{
+  "name": "smit-parikh-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website for Smit Parikh - QA Analyst & Python Developer",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
